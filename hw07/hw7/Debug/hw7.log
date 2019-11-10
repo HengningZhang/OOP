@@ -1,0 +1,6 @@
+﻿  Nobles.cpp
+  Protectors.cpp
+  hw07.cpp
+  正在生成代码...
+C:\Users\Francmeister\source\repos\hw7\hw7\Protectors.cpp(46): warning C4715:  “WarriorCraft::Protector::quit”: 不是所有的控件路径都返回值
+  hw7.vcxproj -> C:\Users\Francmeister\source\repos\hw7\Debug\hw7.exe
