@@ -10,12 +10,12 @@ namespace WarriorCraft {
 	class Protector {
 	public:
 		Protector(const std::string& name, float strength);
-		float getStrength();
-		bool getState();
-		std::string getName();
+		float getStrength() const;
+		bool getState() const;
+		std::string getName() const;
 		void setStrength(float newstrength);
 		void setLord(Lord* newlord);
-		Lord* getLord();
+		Lord* getLord() const;
 		void fired();
 		virtual void battleCry() = 0;
 		bool quit();
@@ -39,7 +39,7 @@ namespace WarriorCraft {
 	};
 	class Swordsman : public Warrior {
 		using Warrior::Warrior;
-		void makeSound();
+		void makeSound() ;
 	};
 }
 

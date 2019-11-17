@@ -12,13 +12,13 @@ namespace WarriorCraft {
 	class Lord;
 
 	Protector::Protector(const string& name, float strength) : name(name), strength(strength), lord(nullptr) {}
-	float Protector::getStrength() {
+	float Protector::getStrength() const{
 		return strength;
 	}
-	bool Protector::getState() {
+	bool Protector::getState() const{
 		return (lord != nullptr);
 	}
-	string Protector::getName() {
+	string Protector::getName() const{
 		return name;
 	}
 	void Protector::setStrength(float newstrength) {
@@ -27,7 +27,7 @@ namespace WarriorCraft {
 	void Protector::setLord(Lord* newlord) {
 		lord = newlord;
 	}
-	Lord* Protector::getLord() {
+	Lord* Protector::getLord() const{
 		return lord;
 	}
 	void Protector::fired() {

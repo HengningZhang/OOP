@@ -12,9 +12,9 @@ namespace WarriorCraft {
 	class Noble {
 	public:
 		Noble(const std::string& name, float strength);
-		bool getLife();
-		float getStrength();
-		std::string getName();
+		bool getLife() const;
+		float getStrength() const;
+		std::string getName() const;
 		virtual void setDerivedStrength(float newstrength) = 0;
 		void setStrength(float newstrength);
 		virtual void battleCry() = 0;

@@ -9,13 +9,13 @@ using namespace std;
 //methods of nobles, including getters, setters and fire, hire, battle, battlecry
 namespace WarriorCraft {
 	Noble::Noble(const string& name, float strength = 0) :name(name), life(true), strength(strength) {}
-	bool Noble::getLife() {
+	bool Noble::getLife() const{
 		return life;
 	}
-	float Noble::getStrength() {
+	float Noble::getStrength() const{
 		return strength;
 	}
-	string Noble::getName() {
+	string Noble::getName() const{
 		return name;
 	}
 
@@ -131,7 +131,7 @@ namespace WarriorCraft {
 			protectors[i]->setStrength(oldstrength * (newstrength / oldstrength));
 		}
 	}
-	void Lord::battleCry() {
+	void Lord::battleCry(){
 		for (size_t i = 0; i < protectors.size(); i++) {
 			protectors[i]->battleCry();
 		}
