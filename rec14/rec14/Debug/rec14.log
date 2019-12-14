@@ -1,0 +1,3 @@
+﻿  rec14.cpp
+C:\Users\zhang\source\repos\rec14\rec14\rec14.cpp(113,8): warning C4930:  'TNode g(void)': prototyped function not called (was a variable definition intended?)
+  rec14.vcxproj -> C:\Users\zhang\source\repos\rec14\Debug\rec14.exe
