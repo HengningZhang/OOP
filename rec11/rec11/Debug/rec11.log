@@ -1,0 +1,3 @@
+﻿  rec11.cpp
+C:\Users\zhang\source\repos\rec11\rec11\rec11.cpp(4,9): warning C4067:  unexpected tokens following preprocessor directive - expected a newline
+  rec11.vcxproj -> C:\Users\zhang\source\repos\rec11\Debug\rec11.exe
